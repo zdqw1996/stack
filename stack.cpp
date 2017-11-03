@@ -18,7 +18,7 @@ class Stack
          
           buffer[i] =value;
     }                                   //初始化
-    m_head = &buffer[N-1] ;     //默认栈头等于栈尾等于数组最后一个元素
+    m_tail = m_head = &buffer[N-1] ;     //默认栈头等于栈尾等于数组最后一个元素
     count  = N-1;                        //最初下标
 }
 
