@@ -48,7 +48,7 @@ class Stack
      {
         *m_head = 0;                   //栈不为空才出栈
         count++;
-        m_head = &buffer[count];
+        m_head= m_tail = &buffer[count];
      }
  }
 
